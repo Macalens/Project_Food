@@ -189,4 +189,4 @@ prev.addEventListener('click', () => {
 // });
 
 }
-module.exports = slider;
+export default slider;
