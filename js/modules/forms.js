@@ -1,9 +1,9 @@
 import {closeModal, openModal} from "./modal";
 
-function forms(modalTimerId){
+function forms(formSelector, modalTimerId){
      //Forms
 
-  const forms = document.querySelectorAll("form");
+  const forms = document.querySelectorAll(formSelector);
 
   const message = {
     loading: "img/form/spinner.svg",
